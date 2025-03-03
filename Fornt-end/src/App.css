@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.add {
+    max-width: 40rem !important;
+}
+
+.list {
+    max-width: 60rem !important;
+    border-collapse: collapse;
+}
+
+.hidden-column {
+    display: none;
+}
+
+/* Hide overflowing text in table cells */
+.td-overflow {
+    max-width: 150px !important;
+    /* Adjust the width as needed */
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/* Ensure table is responsive */
+.table-responsive {
+    overflow-x: auto;
+}
+
+.form-control{
+    line-height: 1.1 !important;
+}
+
+
